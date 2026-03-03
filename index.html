@@ -1334,9 +1334,11 @@ function showToast(msg) {
 }
 
 // ======= INIT =======
-renderCategoryFilter();
-renderItems();
-renderCart();
+document.addEventListener("DOMContentLoaded", () => {
+  renderCategoryFilter();
+  renderItems();
+  renderCart();
+});
 </script>
 </body>
 </html>
